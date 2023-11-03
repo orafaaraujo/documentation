@@ -111,14 +111,16 @@ For example, for a `fooBarRelease` variant, you can use the following configurat
 
 ```groovy
 datadog {
-    foo {
-        versionName = "foo"
-    }
-    bar {
-        versionName = "bar"
-    }
-    fooBar {
-        versionName = "fooBar"
+    variants {
+        foo {
+            versionName = "foo"
+        }
+        bar {
+            versionName = "bar"
+        }
+        fooBar {
+            versionName = "fooBar"
+        }
     }
 }
 ```
